@@ -1,0 +1,23 @@
+Windows Subsystem for Linux is now available in the Microsoft Store!
+You can upgrade by running 'wsl.exe --update' or by visiting https://aka.ms/wslstorepage
+Installing WSL from the Microsoft Store will give you the latest WSL updates, faster.
+For more information please visit https://aka.ms/wslstoreinfo
+
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+Enter a number:
+5
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+Enter a number:
+9
+The square of the number:81
+Enter a number:
+85
+The square of the number:7225
+Enter a number:
+7
+The square of the number:49
+Enter a number:
+-5
+root@ARPITA:~#

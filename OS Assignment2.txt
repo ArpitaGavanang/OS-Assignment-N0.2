@@ -1,0 +1,328 @@
+root@ARPITA:~# ls
+Arpita    Exam.sh  Test.txt  data.txt       fruit.txt  input.txt  numbers.txt        output.txt    q1.txt
+Demo.zip  Mango    Tukaram   duplicate.txt  history    myfile     osassignment2.txt  problem2_txt
+root@ARPITA:~# script osassignment2.txt
+Script started, output log file is 'osassignment2.txt'.
+root@ARPITA:~# vim q1.sh
+root@ARPITA:~# chmod +x q1.sh
+root@ARPITA:~# ./q1.sh
+./q1.sh: 2: echoHello, World!: not found
+root@ARPITA:~# ./ q1.sh
+bash: ./: Is a directory
+root@ARPITA:~# vim q1.sh
+root@ARPITA:~# ./q1.sh
+Hello, World!
+root@ARPITA:~# vim q1.sh
+root@ARPITA:~# vim q2.sh
+root@ARPITA:~# chmod +x q2.sh
+root@ARPITA:~# ./q2.sh
+name
+ = CDAC Mumbai
+root@ARPITA:~# vim q2.sh
+root@ARPITA:~# ./q2.sh
+./q2.sh: 2: name: not found
+
+root@ARPITA:~# vim q2.sh
+root@ARPITA:~# ./q2.sh
+./q2.sh: 2: name: not found
+
+root@ARPITA:~# vim q2.sh
+root@ARPITA:~# ./q2.sh
+CDAC Mumbai
+root@ARPITA:~# vim q3.sh
+root@ARPITA:~# chmod +x q3.sh
+root@ARPITA:~# ./q3.sh
+Enter num1
+15
+Enter num2
+25
+root@ARPITA:~# vim q3.sh
+root@ARPITA:~# ./q3.sh
+Enter num1
+5
+Enter num2
+9
+./q3.sh: 6: result: not found
+
+root@ARPITA:~# vim q3.sh
+root@ARPITA:~# ./q3.sh
+Enter num1
+5
+Enter num2
+9
+sum: '=': No such file or directory
+sum: num1: No such file or directory
+sum: +: No such file or directory
+sum: num2: No such file or directory
+
+root@ARPITA:~# vim q3.sh
+root@ARPITA:~# ./q3.sh
+Enter num1
+2
+Enter num2
+9
+
+root@ARPITA:~# vim q3.sh
+root@ARPITA:~# ./q3.sh
+Enter num1
+2
+Enter num2
+5
+result=
+root@ARPITA:~# vim q3.sh
+root@ARPITA:~# ./q3.sh
+Enter num1
+2
+Enter num2
+9
+11
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# chmod +x q5.sh
+root@ARPITA:~# ./q5.sh
+Enter number
+25
+./q5.sh: 4: Syntax error: word unexpected (expecting ")")
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+Enter number
+5
+Odd Number
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+1
+./q5.sh: 3: Syntax error: Bad for loop variable
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+./q5.sh: 3: Syntax error: Bad for loop variable
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+1
+./q5.sh: 3: Syntax error: Bad for loop variable
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+1
+./q5.sh: 3: Syntax error: Bad for loop variable
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+Numbers from 1 to 5:
+./q5.sh: 3: Syntax error: Bad for loop variable
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+Numbers from 1 to 5:
+./q5.sh: 3: Syntax error: Bad for loop variable
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+Numbers from 1 to 5:
+1
+2
+3
+4
+5
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+Numbers from 1 to 5:
+1
+2
+3
+4
+5
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./wq
+bash: ./wq: No such file or directory
+root@ARPITA:~# ./q5.sh
+Numbers from 1 to 5:
+1
+2
+3
+4
+5
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+File exist
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+Enter num
+11
+./q5.sh: line 4: [: -g: binary operator expected
+The number is less than 10
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+Enter num
+11
+The number is greater than 10
+root@ARPITA:~# ./q5.sh
+Enter num
+5
+The number is less than 10
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+Multiplication Table:
+1
+2
+3
+4
+5
+
+2
+4
+6
+8
+10
+
+3
+6
+9
+12
+15
+
+4
+8
+12
+16
+20
+
+5
+10
+15
+20
+25
+
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+Multiplication Table:
+%-4d 1
+%-4d 2
+%-4d 3
+%-4d 4
+%-4d 5
+
+%-4d 2
+%-4d 4
+%-4d 6
+%-4d 8
+%-4d 10
+
+%-4d 3
+%-4d 6
+%-4d 9
+%-4d 12
+%-4d 15
+
+%-4d 4
+%-4d 8
+%-4d 12
+%-4d 16
+%-4d 20
+
+%-4d 5
+%-4d 10
+%-4d 15
+%-4d 20
+%-4d 25
+
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+Multiplication Table:
+1
+2
+3
+4
+5
+
+2
+4
+6
+8
+10
+
+3
+6
+9
+12
+15
+
+4
+8
+12
+16
+20
+
+5
+10
+15
+20
+25
+
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./wq
+bash: ./wq: No such file or directory
+root@ARPITA:~# ./q5.sh
+Multiplication Table:
+12345
+246810
+3691215
+48121620
+510152025
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+Multiplication Table:
+12345
+246810
+3691215
+48121620
+510152025
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+Multiplication Table:
+1
+2
+3
+4
+5
+
+2
+4
+6
+8
+10
+
+3
+6
+9
+12
+15
+
+4
+8
+12
+16
+20
+
+5
+10
+15
+20
+25
+
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+Multiplication Table:
+        1       2       3       4       5
+        2       4       6       8       10
+        3       6       9       12      15
+        4       8       12      16      20
+        5       10      15      20      25
+root@ARPITA:~# vim q5.sh
+root@ARPITA:~# ./q5.sh
+Enter a number:
+1
+./q5.sh: line 4: syntax error near unexpected token `then'
+./q5.sh: line 4: `while [ $num -lt 0 ]; then'
+root@ARPITA:~#
+exit
+Script done.
+root@ARPITA:~#
+exit
+Script done.
+root@ARPITA:~#
